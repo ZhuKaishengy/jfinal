@@ -31,6 +31,22 @@
 		</plugins>
 	</build>
 	<dependencies>
+
+<!-- https://mvnrepository.com/artifact/com.hynnet/oracle-driver-ojdbc6 -->
+<dependency>
+    <groupId>com.hynnet</groupId>
+    <artifactId>oracle-driver-ojdbc6</artifactId>
+    <version>12.1.0.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
+<!-- <dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-core</artifactId>
+    <version>1.4.0</version>
+</dependency> -->
+
+
 	<!-- **注意：微软的sqlserver 并不支持maven 所以需要在maven repository 中提前下载好jar包 -->
 		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
 <dependency>

@@ -1,4 +1,10 @@
-jdbcUrl = jdbc:sqlserver://192.168.0.92:1433;DatabaseName=zksTest
-user = sa
-password =GL86P_#
-devMode = true
+sqlserver.jdbcUrl = jdbc:sqlserver://192.168.0.92:1433;DatabaseName=zksTest
+sqlserver.driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver
+sqlserver.user = sa
+sqlserver.password =GL86P_#
+
+//多数据源的配置
+oracle.jdbcUrl = jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.29)(PORT=1521)))(CONNECT_DATA=(SID=orcl)))
+oracle.driverClass=oracle.jdbc.driver.OracleDriver
+oracle.user = tf
+oracle.password =lntf_29#

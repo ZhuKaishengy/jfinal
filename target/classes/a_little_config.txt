@@ -1,4 +1,0 @@
-jdbcUrl = jdbc:sqlserver://192.168.0.92:1433;DatabaseName=zksTest
-user = sa
-password =GL86P_#
-devMode = true

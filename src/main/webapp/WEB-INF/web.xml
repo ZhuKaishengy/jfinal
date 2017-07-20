@@ -13,4 +13,13 @@
 		<filter-name>jfinal</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	
+<!-- 	<filter>
+		<filter-name>SystemBootListener</filter-name>
+		<filter-class>com.aisino.link.business.boot.SystemBootListener</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>SystemBootListener</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
 </web-app>
